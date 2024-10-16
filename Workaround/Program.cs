@@ -34,10 +34,10 @@ namespace Workaround
             }
 
             Person person1 = new Person();
-            person1.FirstName = "Eren Can";
-            person1.LastName = "Bilge";
-            person1.DateOfBirthYear = 2002;
-            person1.NationalIdentity = 35332606064;
+            person1.FirstName = "firstname";
+            person1.LastName = "lastname";
+            person1.DateOfBirthYear = 1234;
+            person1.NationalIdentity = 12345678912;
 
 
             PttManager pttManager = new PttManager(new PersonManager());
